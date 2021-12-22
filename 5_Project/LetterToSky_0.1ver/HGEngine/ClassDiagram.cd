@@ -1,0 +1,466 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="D3Camera" Collapsed="true">
+    <Position X="12.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQQAicAAhiAAEJkQBAEAQQAEwAIBoghggAFEAMAgAgI=</HashCode>
+      <FileName>D3Camera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Transform" Collapsed="true">
+    <Position X="20.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAgAAAAAGmQEAAFAEAAAgwKQAQAAggAAAIQIoCA4IA=</HashCode>
+      <FileName>Transform.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InputLayoutDesc" Collapsed="true">
+    <Position X="41.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAACAEQAAAAQAAA=</HashCode>
+      <FileName>Vertex.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InputLayouts" Collapsed="true">
+    <Position X="43.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAGAEQAAAIQAAA=</HashCode>
+      <FileName>Vertex.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlignedAllocationPolicy&lt;T&gt;" Collapsed="true">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AlignedAllocationPolicy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXTKFont" Collapsed="true">
+    <Position X="43.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIEAAAAIAAAAAAAAQAAAAEAAAAAAAEAAQAAAAAEQABA=</HashCode>
+      <FileName>DXTKFont.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeometryGenerator" Collapsed="true">
+    <Position X="39.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAgkAAQAAAAAAIAAQAAgAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>GeometryGenerator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MathHelper" Collapsed="true">
+    <Position X="41.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAABABAIAAAAEAAiIAAAAAAIEAAAgAAAAAAAAAA=</HashCode>
+      <FileName>MathHelper.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LightingHillAndWave" Collapsed="true">
+    <Position X="10" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABRAgKKQIBACBQAARAEIAMAAABALyAlAABIAAABATBA=</HashCode>
+      <FileName>LightingHillAndWave.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IDXObjectBase" Collapsed="true">
+    <Position X="15.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAoAAAAAACAQIMACAABABAAIABgAFIARAABkmAEAA=</HashCode>
+      <FileName>IDXObjectBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LightingSkull" Collapsed="true">
+    <Position X="22.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oACEECAIQAAAAQgCJCIBAEEAAAQAAACYiFAkQAABAAA=</HashCode>
+      <FileName>LightingSkull.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sky" Collapsed="true">
+    <Position X="43.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEEAAAAAAAAgEAAAAAAAAAAACAACAAEAAgACAAAAA=</HashCode>
+      <FileName>Sky.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TexHills" Collapsed="true">
+    <Position X="24.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAABQAA=</HashCode>
+      <FileName>TexHills.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextureObject" Collapsed="true">
+    <Position X="24.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAEAAAAQAAAAAAAAAAAEAABQQAMgAAAQ=</HashCode>
+      <FileName>TextureObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TexWave" Collapsed="true">
+    <Position X="26.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAAQAAAAAAAQAARAAIAAAAABACQAEAAAKAABBAQBA=</HashCode>
+      <FileName>TexWave.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hills" Collapsed="true">
+    <Position X="20.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAQAAAAAAAAAABAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Hills.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelperObject" Collapsed="true">
+    <Position X="15.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HelperObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VertexColorObject" Collapsed="true">
+    <Position X="18" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAAEAABAQAAACAAE=</HashCode>
+      <FileName>VertexColorObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Waves" Collapsed="true">
+    <Position X="18" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQCAAQAABAAAQAAQAAIAABAABEBQAEAABIAAAAARBA=</HashCode>
+      <FileName>Waves.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASEObject" Collapsed="true">
+    <Position X="11.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAQABAAAAAAECAAAIAAEAAQQAEgIEAABEQAAgAAAA=</HashCode>
+      <FileName>ASEObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitmapObject" Collapsed="true">
+    <Position X="15.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAwAAAIAAAAAAUAEAAAQABAAQAIFCAEAERAQAAsAAQA=</HashCode>
+      <FileName>BitmapObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXRenderer" Collapsed="true">
+    <Position X="39.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQEACABGCAAAQAAJADAIAABQAZAAAAAABAAAgIAAIE=</HashCode>
+      <FileName>DXRenderer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFactory" Collapsed="true">
+    <Position X="43.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAACAAAAAAAAABAgAQAIAIAAAAgAAAAgAAAAIAIAA=</HashCode>
+      <FileName>DXFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Effect" Collapsed="true">
+    <Position X="14.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAgAAIAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Effects.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ColorEffect" Collapsed="true">
+    <Position X="8.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAIAAAAAAAAAAAAAAACAAAAAAAAABAAAAEAAA=</HashCode>
+      <FileName>Effects.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LightingEffect" Collapsed="true">
+    <Position X="11" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RAAAAAAAIBAAAAAEAAAAQIAAAAABAAAEBAjAEAAEAAE=</HashCode>
+      <FileName>Effects.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BasicEffect" Collapsed="true">
+    <Position X="13.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RgEQAAAABBAQAAAEJBAAQAAAABAAAAAEDARAkAAEQBA=</HashCode>
+      <FileName>Effects.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlurEffect" Collapsed="true">
+    <Position X="15.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAIABAAAAAAAAAEAIAAAgAAAAAABAAAEAAAAAEIAA=</HashCode>
+      <FileName>Effects.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SkyEffect" Collapsed="true">
+    <Position X="17.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAIAAQAABAAAAAAAAAAAAAAAAAAABAAAAECAA=</HashCode>
+      <FileName>Effects.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitmapEffect" Collapsed="true">
+    <Position X="20" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAIAAAAACAAAAAAAAAAAAAAAAAAARAAAAEQAA=</HashCode>
+      <FileName>Effects.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Effects" Collapsed="true">
+    <Position X="45" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAgAAAAAAAEAAAEAQAAAAJAgAA=</HashCode>
+      <FileName>Effects.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXDevice" Collapsed="true">
+    <Position X="26" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIFFgCSUAGADJwgAQqMEEYaYEBgAFApgJAAIBEICQAY=</HashCode>
+      <FileName>DXDevice.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXGeometryBuilder" Collapsed="true">
+    <Position X="45" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAABAASABAAAIAEgAAAAAAMAAAAEEBAQiAAAgAAAAA=</HashCode>
+      <FileName>DXGeometryBuilder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlurFilter" Collapsed="true">
+    <Position X="39.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAABAAANAAAAAAAAAAEgAAAAAAAAAACAKAEAAI=</HashCode>
+      <FileName>BlurFilter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXRenderStates" Collapsed="true">
+    <Position X="41.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAABAAAAAAAAAAQAAAAAAAAAAAEAEAAAEAAIQAIA=</HashCode>
+      <FileName>DXRenderStates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoxCollider" Collapsed="true">
+    <Position X="13.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQogAAAAIoAAUMIAAQAAUAgAKAAAABAAFAQAkAQEIA=</HashCode>
+      <FileName>BoxCollider.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JChannel" Collapsed="true">
+    <Position X="45" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAEAACAAAAAAAAAAAAAAQAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>SoundManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoundManager" Collapsed="true">
+    <Position X="45" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQgAAIAAAAAAYAAQAIAAEAABEQAEAEIoAACUAgAAAA=</HashCode>
+      <FileName>SoundManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGeoBuffer" Collapsed="true">
+    <Position X="41.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAggAAQAAAAAEAAAAQQCAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>DirectXStruct.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DirectX::MapGuard" Collapsed="true">
+    <Position X="39.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAgAAAAAQAAAAAgQAAAAAAAhAEAAAAA=</HashCode>
+      <FileName>Common\DirectXHelpers.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="DDS_PIXELFORMAT" Collapsed="true">
+    <Position X="45" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAQAAAIAAAAAAAAAAAAAAAAAAACAFIAQ=</HashCode>
+      <FileName>DDSTextureLoader.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DDS_HEADER" Collapsed="true">
+    <Position X="41.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAASAAAAAAAgQIQIAAIAAEgAAAAAAAAAAQIAAAAAQ=</HashCode>
+      <FileName>DDSTextureLoader.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DDS_HEADER_DXT10" Collapsed="true">
+    <Position X="43.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAgAAAAAAACAAAAAAAAAAAQAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>DDSTextureLoader.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DirectionalLight" Collapsed="true">
+    <Position X="39.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAQAAAAAAAgAAAiAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>LightHelper.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PointLight" Collapsed="true">
+    <Position X="45" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAACgAgAgAAAAAAAACAAAAAAAAAIEAAAAA=</HashCode>
+      <FileName>LightHelper.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SpotLight" Collapsed="true">
+    <Position X="43.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAABACgAgAiAAAAAAAACAAAAAAAgAAEAAAAA=</HashCode>
+      <FileName>LightHelper.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Material" Collapsed="true">
+    <Position X="43.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAgAAAAABAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>LightHelper.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ASEObjectMesh" Collapsed="true">
+    <Position X="39.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAQAAAAAAAAAAAAAEAgA=</HashCode>
+      <FileName>ASEObject.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SGeoBuffer" Collapsed="true">
+    <Position X="41.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAQAAAAAEAAAAQQAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>DirectXStruct.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="VertexInputLayout::Position" Collapsed="true">
+    <Position X="41.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Vertex.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="VertexInputLayout::PosColor" Collapsed="true">
+    <Position X="39.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Vertex.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="VertexInputLayout::PosTexture" Collapsed="true">
+    <Position X="39.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Vertex.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="VertexInputLayout::PosNormal" Collapsed="true">
+    <Position X="45" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Vertex.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="VertexInputLayout::PosNomTexture" Collapsed="true">
+    <Position X="43.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACIAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Vertex.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="`anonymous-namespace'::handle_closer" Collapsed="true">
+    <Position X="41.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DDSTextureLoader.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="XNA::AxisAlignedBox" Collapsed="true">
+    <Position X="39.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Patch_Chapters.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="XNA::Frustum" Collapsed="true">
+    <Position X="41.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Patch_Chapters.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="XNA::OrientedBox" Collapsed="true">
+    <Position X="43.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Patch_Chapters.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="DDS_MISC_FLAGS2" Collapsed="true">
+    <Position X="41.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>DDSTextureLoader.cpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SoundInfo" Collapsed="true">
+    <Position X="43.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>SoundManager.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eDXObjectType" Collapsed="true">
+    <Position X="45" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgABAA=</HashCode>
+      <FileName>DirectXStruct.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eDXHelperObject" Collapsed="true">
+    <Position X="43.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>DirectXStruct.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eDXVertexColorObject" Collapsed="true">
+    <Position X="41.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAIAAAAAAAAAAAAAABAAAAAAAABAkAAAAAA=</HashCode>
+      <FileName>DirectXStruct.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eDXTextureObject" Collapsed="true">
+    <Position X="39.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DirectXStruct.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DirectX::WIC_LOADER_FLAGS" Collapsed="true">
+    <Position X="45" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Common\WICTextureLoader.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DirectX::DDS_ALPHA_MODE" Collapsed="true">
+    <Position X="39.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAACAAAAAQAAAQAAAAAAAAABA=</HashCode>
+      <FileName>DDSTextureLoader.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>

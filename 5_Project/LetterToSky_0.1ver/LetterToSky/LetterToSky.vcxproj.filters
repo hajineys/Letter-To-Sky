@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\GameApp">
+      <UniqueIdentifier>{9a287417-b19b-4e35-953a-b774f1dbeaac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\SceneManager">
+      <UniqueIdentifier>{e4d399e0-7592-4dd4-a1a5-e5c7c92cf384}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene">
+      <UniqueIdentifier>{9d3aca9c-9d2d-4a01-b97b-647d84dd2090}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene\SceneList">
+      <UniqueIdentifier>{0534c9f2-6bf8-4a73-94f9-61c44367f34a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Object">
+      <UniqueIdentifier>{8265297d-53fe-4d58-bed3-acc8fb75752a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Object\Player">
+      <UniqueIdentifier>{489826c2-e752-49e1-810a-833cc53c348c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Object\Stair">
+      <UniqueIdentifier>{5738bc55-c6e6-4a22-9586-490644e65eba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Object\Bird">
+      <UniqueIdentifier>{0d199b43-251a-4bdc-9d5e-7246226ae665}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ResourceManager">
+      <UniqueIdentifier>{272c36ec-64d0-4eb7-9000-8250036a7176}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApp.h">
+      <Filter>소스 파일\GameApp</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>소스 파일\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="IScene.h">
+      <Filter>소스 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TutorialInGameScene.h">
+      <Filter>소스 파일\Scene\SceneList</Filter>
+    </ClInclude>
+    <ClInclude Include="TutoEndCutScene.h">
+      <Filter>소스 파일\Scene\SceneList</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>소스 파일\Scene\SceneList</Filter>
+    </ClInclude>
+    <ClInclude Include="IntroCutScene.h">
+      <Filter>소스 파일\Scene\SceneList</Filter>
+    </ClInclude>
+    <ClInclude Include="AreaTutoChoiceScene.h">
+      <Filter>소스 파일\Scene\SceneList</Filter>
+    </ClInclude>
+    <ClInclude Include="MainInGameScene.h">
+      <Filter>소스 파일\Scene\SceneList</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerOld.h">
+      <Filter>소스 파일\Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Stair.h">
+      <Filter>소스 파일\Object\Stair</Filter>
+    </ClInclude>
+    <ClInclude Include="Bird.h">
+      <Filter>소스 파일\Object\Bird</Filter>
+    </ClInclude>
+    <ClInclude Include="MainEndCutScene.h">
+      <Filter>소스 파일\Scene\SceneList</Filter>
+    </ClInclude>
+    <ClInclude Include="ThanksPlayScene.h">
+      <Filter>소스 파일\Scene\SceneList</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>소스 파일\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadingScene.h">
+      <Filter>소스 파일\Scene\SceneList</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstValue.h">
+      <Filter>소스 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerNew.h">
+      <Filter>소스 파일\Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="SavePoint.h">
+      <Filter>소스 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="AreaMainChoiceScene.h">
+      <Filter>소스 파일\Scene\SceneList</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LetterToSky.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GameApp.cpp">
+      <Filter>소스 파일\GameApp</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>소스 파일\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="TutoEndCutScene.cpp">
+      <Filter>소스 파일\Scene\SceneList</Filter>
+    </ClCompile>
+    <ClCompile Include="TutorialInGameScene.cpp">
+      <Filter>소스 파일\Scene\SceneList</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>소스 파일\Scene\SceneList</Filter>
+    </ClCompile>
+    <ClCompile Include="IntroCutScene.cpp">
+      <Filter>소스 파일\Scene\SceneList</Filter>
+    </ClCompile>
+    <ClCompile Include="AreaTutoChoiceScene.cpp">
+      <Filter>소스 파일\Scene\SceneList</Filter>
+    </ClCompile>
+    <ClCompile Include="MainInGameScene.cpp">
+      <Filter>소스 파일\Scene\SceneList</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerOld.cpp">
+      <Filter>소스 파일\Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Stair.cpp">
+      <Filter>소스 파일\Object\Stair</Filter>
+    </ClCompile>
+    <ClCompile Include="Bird.cpp">
+      <Filter>소스 파일\Object\Bird</Filter>
+    </ClCompile>
+    <ClCompile Include="MainEndCutScene.cpp">
+      <Filter>소스 파일\Scene\SceneList</Filter>
+    </ClCompile>
+    <ClCompile Include="ThanksPlayScene.cpp">
+      <Filter>소스 파일\Scene\SceneList</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>소스 파일\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadingScene.cpp">
+      <Filter>소스 파일\Scene\SceneList</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerNew.cpp">
+      <Filter>소스 파일\Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="SavePoint.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="AreaMainChoiceScene.cpp">
+      <Filter>소스 파일\Scene\SceneList</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LetterToSky.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="LetterToSky.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
